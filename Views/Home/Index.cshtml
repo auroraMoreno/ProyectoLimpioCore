@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@section imagenes{ 
+    <img src="~/Images/EnBkZYvW4AAt4lC.jpg" style="width:150px; height:150px"/>
+}
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $("#btnhijo").click(function () {
+                alert("mensaje desde vista");
+            });
+        });
+    </script>
+}
+
+
+<h1>buen dia</h1>
+<button type="button" class="btn btn-success" id="btnhijo">Ver mensaje hijo</button>
